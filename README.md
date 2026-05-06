@@ -1,1 +1,6 @@
-# Mansa
+DockerFROM n8nio/n8n
+
+ENV N8N_PORT=10000
+ENV N8N_HOST=0.0.0.0
+
+EXPOSE 10000file
